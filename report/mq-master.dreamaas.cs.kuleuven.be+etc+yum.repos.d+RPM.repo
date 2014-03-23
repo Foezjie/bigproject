@@ -1,0 +1,5 @@
+[RPM]
+name = RPM
+enabled = 1
+gpgcheck = 0
+baseurl = http://people.cs.kuleuven.be/~bart.vanbrabant/rpm/

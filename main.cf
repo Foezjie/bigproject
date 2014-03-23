@@ -1,0 +1,5 @@
+demo::Config(preprocess = 1,
+    render = 1,
+    render_spillover = 0,
+    postprocess = 1,
+    master = 1)

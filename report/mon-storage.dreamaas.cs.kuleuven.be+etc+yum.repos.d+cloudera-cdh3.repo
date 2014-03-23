@@ -1,0 +1,5 @@
+[cloudera-cdh3]
+name = cloudera-cdh3
+enabled = 1
+gpgcheck = 0
+baseurl = http://archive.cloudera.com/redhat/6/x86_64/cdh/3/

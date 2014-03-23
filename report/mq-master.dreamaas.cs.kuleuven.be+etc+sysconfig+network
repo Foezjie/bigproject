@@ -1,0 +1,2 @@
+NETWORKING=yes
+HOSTNAME=mq-master.dreamaas.cs.kuleuven.be

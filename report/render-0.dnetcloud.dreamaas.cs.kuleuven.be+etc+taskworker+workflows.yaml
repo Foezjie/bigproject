@@ -1,0 +1,32 @@
+---
+workers:
+    - {name: template-to-xml, class: drm.taskworker.workers.TemplateWorker, threads: 2, code: "/usr/share/taskworker/workers.jar" }
+    - {name: xsl-fo-render, class: drm.taskworker.workers.XslFoRenderWorker, threads: 2, code: "/usr/share/taskworker/workers.jar" }
+
+
+workflows:
+
+    invoices:
+        steps:
+            join: {next: zip-files}
+            template-to-xml: {next: xsl-fo-render}
+            csv-to-task: {next: template-to-xml}
+            zip-files: {next: archive}
+            xsl-fo-render: {next: join}
+            archive: {next: end}
+            
+        start: csv-to-task
+        end: end
+
+
+scheduler:
+    class: drm.taskworker.schedule.FairShare
+    workers:
+        - csv-to-task
+        - archive
+        - xsl-fo-render
+        - join
+        - template-to-xml
+        - end
+        - zip-files
+

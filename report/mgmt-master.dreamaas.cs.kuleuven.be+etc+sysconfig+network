@@ -1,0 +1,2 @@
+NETWORKING=yes
+HOSTNAME=mgmt-master.dreamaas.cs.kuleuven.be

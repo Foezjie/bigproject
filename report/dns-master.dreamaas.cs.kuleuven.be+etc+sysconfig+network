@@ -1,0 +1,2 @@
+NETWORKING=yes
+HOSTNAME=dns-master.dreamaas.cs.kuleuven.be

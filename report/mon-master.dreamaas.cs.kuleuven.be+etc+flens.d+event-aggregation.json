@@ -1,0 +1,15 @@
+ {
+    "tags" : { "eventaggregator" : "eventaggregator"},
+    "init": {
+        "output" : {
+            "amqp-out-events":{
+                "plugin" : "amqp-out",
+                "type" : "event",
+                "exchange" : "events",
+                "tags" : ["json"],
+                "host": "198.51.100.45",
+                "field" : "json"
+            }
+        }
+    }
+}

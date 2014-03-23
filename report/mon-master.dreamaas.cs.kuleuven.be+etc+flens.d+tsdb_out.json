@@ -1,0 +1,13 @@
+{
+  "tags" : {"opentsdbout" : "opentsdbout"},
+  "init": {
+    "output" : { 
+      "tsdb-out" : {
+ 			"type" : "metric-collect",
+            "host" : "198.51.100.45",
+ 			"port": 4242,
+			"send-tags":["type","instance","service"]
+ 	  }
+    }   
+  }
+}

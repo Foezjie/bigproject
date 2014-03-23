@@ -1,0 +1,13 @@
+# Generated configuration file
+TYPE=Ethernet
+ONBOOT=on
+
+BOOTPROTO=dhcp
+
+
+# DNS configuration
+PEERDNS=no
+
+
+DNS1=198.51.100.45
+

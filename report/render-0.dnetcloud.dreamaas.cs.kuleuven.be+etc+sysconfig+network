@@ -1,0 +1,2 @@
+NETWORKING=yes
+HOSTNAME=render-0.dnetcloud.dreamaas.cs.kuleuven.be

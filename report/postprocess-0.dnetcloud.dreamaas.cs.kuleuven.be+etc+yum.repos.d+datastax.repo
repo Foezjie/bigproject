@@ -1,0 +1,5 @@
+[datastax]
+name = datastax
+enabled = 1
+gpgcheck = 0
+baseurl = http://rpm.datastax.com/community

@@ -1,0 +1,13 @@
+127.0.0.1		localhost.localdomain localhost
+::1		        localhost6.localdomain6 localhost6
+
+198.51.100.45     mon-master.dreamaas.cs.kuleuven.be
+198.51.100.45     mon-storage.dreamaas.cs.kuleuven.be
+198.51.100.45     mgmt-master.dreamaas.cs.kuleuven.be
+198.51.100.45     mq-master.dreamaas.cs.kuleuven.be
+198.51.100.45     dns-master.dreamaas.cs.kuleuven.be
+198.51.100.45     preprocess-0.dnetcloud.dreamaas.cs.kuleuven.be
+198.51.100.45     render-0.dnetcloud.dreamaas.cs.kuleuven.be
+198.51.100.45     master-0.dnetcloud.dreamaas.cs.kuleuven.be
+198.51.100.45     postprocess-0.dnetcloud.dreamaas.cs.kuleuven.be
+
