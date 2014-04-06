@@ -1,0 +1,220 @@
+--------------------
+Order: stack
+--------------------
+adding stack
+Compiling homecloud only
+dreamaas.cs.kuleuven.be
+@Entity(PKI) pki::PKI
+Stacks found: 392
+Avg: 1.0535714285714286
+dir_file:93
+Committed resources with version 1396791467
+--------------------
+Order: name
+--------------------
+adding name
+Compiling homecloud only
+dreamaas.cs.kuleuven.be
+@Entity(PKI) pki::PKI
+name: 335
+dir_file:93
+Committed resources with version 1396791481
+--------------------
+Order: rel
+--------------------
+adding rel
+Compiling homecloud only
+dreamaas.cs.kuleuven.be
+@Entity(PKI) pki::PKI
+deps: 72
+depends: 292
+rels: 102
+dir_file:93
+Committed resources with version 1396791497
+--------------------
+Order: stack_name
+--------------------
+adding stack
+adding name
+Compiling homecloud only
+dreamaas.cs.kuleuven.be
+@Entity(PKI) pki::PKI
+Stacks found: 392
+Avg: 1.0535714285714286
+name: 142
+dir_file:93
+Committed resources with version 1396791511
+--------------------
+Order: name_stack
+--------------------
+adding name
+adding stack
+dreamaas.cs.kuleuven.be
+@Entity(PKI) pki::PKI
+Compiling homecloud only
+name: 335
+Stacks found: 392
+Avg: 0.5612244897959183
+dir_file:93
+Committed resources with version 1396791528
+--------------------
+Order: stack_rel
+--------------------
+adding stack
+adding rel
+dreamaas.cs.kuleuven.be
+@Entity(PKI) pki::PKI
+Compiling homecloud only
+Stacks found: 392
+Avg: 1.0535714285714286
+deps: 72
+depends: 292
+rels: 102
+dir_file:93
+Committed resources with version 1396791547
+--------------------
+Order: rel_stack
+--------------------
+adding rel
+adding stack
+Compiling homecloud only
+dreamaas.cs.kuleuven.be
+@Entity(PKI) pki::PKI
+deps: 72
+depends: 292
+rels: 102
+Stacks found: 392
+Avg: 1.0535714285714286
+dir_file:93
+Committed resources with version 1396791563
+--------------------
+Order: name_rel
+--------------------
+adding name
+adding rel
+Compiling homecloud only
+dreamaas.cs.kuleuven.be
+@Entity(PKI) pki::PKI
+name: 335
+deps: 72
+depends: 292
+rels: 102
+dir_file:93
+Committed resources with version 1396791578
+--------------------
+Order: rel_name
+--------------------
+adding rel
+adding name
+dreamaas.cs.kuleuven.be
+@Entity(PKI) pki::PKI
+Compiling homecloud only
+deps: 72
+depends: 292
+rels: 102
+name: 335
+dir_file:93
+Committed resources with version 1396791594
+--------------------
+Order: stack_name_rel
+--------------------
+adding stack
+adding name
+adding rel
+dreamaas.cs.kuleuven.be
+@Entity(PKI) pki::PKI
+Compiling homecloud only
+Stacks found: 392
+Avg: 1.0535714285714286
+name: 142
+deps: 72
+depends: 292
+rels: 102
+dir_file:93
+Committed resources with version 1396791610
+--------------------
+Order: stack_rel_name
+--------------------
+adding stack
+adding rel
+adding name
+Compiling homecloud only
+dreamaas.cs.kuleuven.be
+@Entity(PKI) pki::PKI
+Stacks found: 392
+Avg: 1.0535714285714286
+deps: 72
+depends: 292
+rels: 102
+name: 142
+dir_file:93
+Committed resources with version 1396791625
+--------------------
+Order: name_stack_rel
+--------------------
+adding name
+adding stack
+adding rel
+dreamaas.cs.kuleuven.be
+@Entity(PKI) pki::PKI
+Compiling homecloud only
+name: 335
+Stacks found: 392
+Avg: 0.5612244897959183
+deps: 72
+depends: 292
+rels: 102
+dir_file:93
+Committed resources with version 1396791642
+--------------------
+Order: name_rel_stack
+--------------------
+adding name
+adding rel
+adding stack
+Compiling homecloud only
+dreamaas.cs.kuleuven.be
+@Entity(PKI) pki::PKI
+name: 335
+deps: 72
+depends: 292
+rels: 102
+Stacks found: 392
+Avg: 0.5612244897959183
+dir_file:93
+Committed resources with version 1396791659
+--------------------
+Order: rel_stack_name
+--------------------
+adding rel
+adding stack
+adding name
+Compiling homecloud only
+dreamaas.cs.kuleuven.be
+@Entity(PKI) pki::PKI
+deps: 72
+depends: 292
+rels: 102
+Stacks found: 392
+Avg: 1.0535714285714286
+name: 142
+dir_file:93
+Committed resources with version 1396791677
+--------------------
+Order: rel_name_stack
+--------------------
+adding rel
+adding name
+adding stack
+Compiling homecloud only
+dreamaas.cs.kuleuven.be
+@Entity(PKI) pki::PKI
+deps: 72
+depends: 292
+rels: 102
+name: 335
+Stacks found: 392
+Avg: 0.5612244897959183
+dir_file:93
+Committed resources with version 1396791694
+
