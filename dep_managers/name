@@ -21,6 +21,9 @@ def name_dependencies(model, resources):
             #Sometimes a version number is added to the packages name (like cassandra12).
             #Removing the numbers will help in finding similar resources.
             pkg_name = ''.join(i for i in res.name if not i.isdigit())
+            #Some packages are named like [name]-suffix (taskworker-core, openssh-server,...)
+            #We only check for the first part and hopefully add more requirements
+            pkg_name = pkg_name.split("-")[0]
             for other_id, other_res in resources.items():
                 similar_reg = re.compile("std::File.*%s.*%s.*" % (res.model.host.name, pkg_name))
                 if other_res.model.__class__.__name__ == "File" and similar_reg.match(str(other_id)):

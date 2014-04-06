@@ -18,7 +18,9 @@ for length in range(1, len(managers)+1):
 
 for order in orders:
     suffix = "_".join(order)
+    print("--------------------")
     print("Order: %s" % suffix)
+    print("--------------------")
     subprocess.call("cat %s > %s" % (dep_dir+"imports.pre", file), shell=True)
     for dep_manager in order:
         print("adding %s" % dep_manager)
