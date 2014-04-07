@@ -10,10 +10,10 @@ def scope_dependencies(model, resources):
     #first we look for all "service stacks": scopes that have a service, a (config) file and a package
     srv_stacks = find_srv_stacks(resources)
     deps_per_stack = [] 
-    print("Stacks found: %s" % len(srv_stacks))
+    #print("Stacks found: %s" % len(srv_stacks))
     for stack in srv_stacks:
         deps_per_stack.append(setup_stack_deps(stack))
-    print("Avg: %s" % (sum(deps_per_stack) / float(len(deps_per_stack))))
+    print("stack: %s" % sum(deps_per_stack))
  
 def find_srv_stacks(resources):
     #list of 3-tuples of resources that are in the same scope. (files,services, packages)

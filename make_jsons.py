@@ -23,7 +23,7 @@ for order in orders:
     print("--------------------")
     subprocess.call("cat %s > %s" % (dep_dir+"imports.pre", file), shell=True)
     for dep_manager in order:
-        print("adding %s" % dep_manager)
+        #print("adding %s" % dep_manager)
         subprocess.call("cat %s >> %s" % (dep_dir+dep_manager, file), shell=True)
 
     subprocess.call("cat %s >> %s" % (dep_dir+"dirs_files.suffix", file), shell=True)
